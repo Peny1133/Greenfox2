@@ -1,0 +1,44 @@
+.page{
+ margin:auto;
+  width:1000px;
+  
+}
+header{
+  background-color: aqua;
+  height: 120px;
+}
+.content{
+  display: flex;
+  height: 800px;
+  justify-content: space-between;
+}
+.left{
+  background-color: orange;
+  width:180px;
+}
+.right{
+  background-color: purple;
+  width:180px;
+}
+main{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  
+
+  background-color: red;
+  width:600px;
+}
+footer{
+  background-color: blue;
+  height:120px;
+}
+.black{
+  background-color: black;
+  position: relative;
+  bottom: 70px;
+  right: 70px;
+  width:50px;
+  height: 50px;
+  
+}
